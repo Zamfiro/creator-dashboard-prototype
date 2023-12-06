@@ -1,6 +1,6 @@
-##Check it out for yourself
+## Check it out for yourself
 
-[creator-dashboard-prototype][https://creator-dashboard-prototype.vercel.app/]
+[creator-dashboard-prototype](https://creator-dashboard-prototype.vercel.app/)
 
 I advise you to try it on a mobile device, because it was mainly intended as a mobile application
 
@@ -8,7 +8,7 @@ I advise you to try it on a mobile device, because it was mainly intended as a m
 
 This application is meant to be a native mobile aplication, a webapp was designed for practicing, UX/UI prototyping and testing functionalities. It is still a work in progress
 
-##Tools used
+## Tools used
 - Next.js
 - TailwindCSS
 - React-Icons
