@@ -2,26 +2,53 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
+@layer utilities {
+  /* Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+  .no-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+
+  .scrollbar-mini::-webkit-scrollbar {
+    
+    display: hidden;
+    height: 5px;
+    width: 5px;
+  }
+  
+  /* Track */
+  .scrollbar-mini::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  /* Handle */
+  .scrollbar-mini::-webkit-scrollbar-thumb {
+    background: var(--primary);
+    border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--accent);
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+:root {
+  --text: #040816;
+  --background: #e0e6fa;
+  --primary: #1f40ad;
+  --secondary: #cbd5f6;
+  --accent: #254dd0;
+}
+
+.dark {
+  --text: #e9edfb;
+  --background: #050b1f;
+  --primary: #5273e0;
+  --secondary: #091334;
+  --accent: #2f57da;
 }
