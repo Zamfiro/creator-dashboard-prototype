@@ -4,7 +4,7 @@
 
 I advise you to try it on a mobile device, because it was mainly intended as a mobile application
 
-##About the project
+## About the project
 
 This application is meant to be a native mobile aplication, a webapp was designed for practicing, UX/UI prototyping and testing functionalities. It is still a work in progress
 
