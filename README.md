@@ -1,3 +1,19 @@
+##Check it out for yourself
+
+[creator-dashboard-prototype][https://creator-dashboard-prototype.vercel.app/]
+
+I advise you to try it on a mobile device, because it was mainly intended as a mobile application
+
+##About the project
+
+This application is meant to be a native mobile aplication, a webapp was designed for practicing, UX/UI prototyping and testing functionalities. It is still a work in progress
+
+##Tools used
+- Next.js
+- TailwindCSS
+- React-Icons
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
